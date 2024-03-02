@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: pkg update -y && pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com
+          path: https://raw.githubusercontent.com
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
