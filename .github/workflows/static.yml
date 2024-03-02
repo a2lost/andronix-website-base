@@ -35,7 +35,7 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact
-        with: @v4
+        with: 
           # Upload entire repository
           path: https://raw.githubusercontent.com
       - name: Deploy to GitHub Pages
